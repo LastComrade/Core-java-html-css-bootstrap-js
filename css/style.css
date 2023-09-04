@@ -1,0 +1,25 @@
+* {
+    padding: 5px;
+    background-color: beige;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: darkblue;
+    
+}
+
+ul, ol {
+    color: green;
+}
+
+img {
+    color: yellow;
+    border: 1rem;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 0.5rem;
+}

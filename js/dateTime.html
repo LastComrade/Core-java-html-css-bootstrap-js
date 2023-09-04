@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Example - 1</title>
+    <script>
+        let isDate = false;
+        function getTimeAndDate() {
+            const date = new Date();
+            const dateElement = document.getElementById("date");
+            isDate = !isDate;
+            if (isDate) {
+                dateElement.style.color = "red";
+                dateElement.style.fontSize = "50px";
+                dateElement.style.backgroundColor = "yellow";
+                dataElement.
+                dateElement.innerText= date;
+            } else {
+                dateElement.innerText = "";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Data and Time</h1>
+    <button onclick="getTimeAndDate()">Click me to get the date and time</button>
+    <p id="date"></p>
+</body>
+
+</html>
